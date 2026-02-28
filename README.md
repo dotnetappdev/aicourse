@@ -12,7 +12,7 @@ A beginner-friendly video course that teaches the fundamentals of AI development
 
 ---
 
-## 📺 20-Module Course Structure
+## 📺 23-Module Course Structure
 
 Each module is a **focused, ~5–8 minute lesson** with its own video script and small, single-topic code file(s).
 
@@ -56,6 +56,14 @@ Each module is a **focused, ~5–8 minute lesson** with its own video script and
 | 19 | [RAG with ChromaDB](modules/19_rag/) | embeddings, vector search, grounded answers | `rag_pipeline.py` |
 | 20 | [Structured Output & Rich CLI](modules/20_structured_output_and_rich/) | JSON mode, rich terminal UI | `structured_output.py`, `rich_chat.py` |
 
+### 👁️ Vision AI (Modules 21–23)
+
+| # | Module | Key Skills | Files |
+|---|--------|-----------|-------|
+| 21 | [Image Classification](modules/21_vision_image_classification/) | LLaVA, multimodal, hot dog / not hot dog | `image_classifier.py` |
+| 22 | [Receipt Scanner](modules/22_vision_receipt_scanner/) | OCR, structured JSON extraction, Rich display | `receipt_scanner.py` |
+| 23 | [Licence Plate ANPR & Tax Check](modules/23_vision_anpr_tax_check/) | plate OCR, normalisation, DVLA API | `anpr.py` |
+
 ---
 
 ## 🛠️ Prerequisites
@@ -63,7 +71,8 @@ Each module is a **focused, ~5–8 minute lesson** with its own video script and
 - A computer running Windows, macOS, or Linux
 - Python 3.10+ ([download](https://www.python.org/downloads/))
 - [Ollama](https://ollama.com) (installed in Module 12)
-- At least 4 GB RAM (8 GB recommended)
+- At least 4 GB RAM (8 GB recommended; Vision modules need 8 GB+)
+- Vision modules (21–23): `ollama pull llava` (~4 GB) or `ollama pull llava-phi3` (~2 GB)
 
 ---
 
