@@ -12,7 +12,7 @@ A beginner-friendly video course that teaches the fundamentals of AI development
 
 ---
 
-## 📺 23-Module Course Structure
+## 📺 27-Module Course Structure
 
 Each module is a **focused, ~5–8 minute lesson** with its own video script and small, single-topic code file(s).
 
@@ -56,13 +56,17 @@ Each module is a **focused, ~5–8 minute lesson** with its own video script and
 | 19 | [RAG with ChromaDB](modules/19_rag/) | embeddings, vector search, grounded answers | `rag_pipeline.py` |
 | 20 | [Structured Output & Rich CLI](modules/20_structured_output_and_rich/) | JSON mode, rich terminal UI | `structured_output.py`, `rich_chat.py` |
 
-### 👁️ Vision AI (Modules 21–23)
+### 👁️ Vision AI (Modules 21–27)
 
 | # | Module | Key Skills | Files |
 |---|--------|-----------|-------|
 | 21 | [Image Classification](modules/21_vision_image_classification/) | LLaVA, multimodal, hot dog / not hot dog | `image_classifier.py` |
 | 22 | [Receipt Scanner](modules/22_vision_receipt_scanner/) | OCR, structured JSON extraction, Rich display | `receipt_scanner.py` |
 | 23 | [Licence Plate ANPR & Tax Check](modules/23_vision_anpr_tax_check/) | plate OCR, normalisation, DVLA API | `anpr.py` |
+| 24 | [Face Emotion Detection](modules/24_vision_emotion_detection/) | facial expression analysis, group mood, timeline | `emotion_detector.py` |
+| 25 | [Object Detection & Counting](modules/25_vision_object_counting/) | count objects, multi-type inventory, crowd estimation | `object_counter.py` |
+| 26 | [Video Frame Analysis](modules/26_video_frame_analysis/) | OpenCV, scene-change detection, video summary | `video_analyser.py` |
+| 27 | [Live Webcam Captioning](modules/27_webcam_live_caption/) | real-time capture, smart change detection, overlay | `webcam_caption.py` |
 
 ---
 
@@ -72,7 +76,8 @@ Each module is a **focused, ~5–8 minute lesson** with its own video script and
 - Python 3.10+ ([download](https://www.python.org/downloads/))
 - [Ollama](https://ollama.com) (installed in Module 12)
 - At least 4 GB RAM (8 GB recommended; Vision modules need 8 GB+)
-- Vision modules (21–23): `ollama pull llava` (~4 GB) or `ollama pull llava-phi3` (~2 GB)
+- Vision modules (21–27): `ollama pull llava` (~4 GB) or `ollama pull llava-phi3` (~2 GB)
+- Video modules (26–27): `pip install opencv-python`
 
 ---
 
