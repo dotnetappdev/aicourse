@@ -1,0 +1,13 @@
+Python is a high-level, general-purpose programming language created by Guido van Rossum and first released in 1991. It is known for its emphasis on code readability and its use of significant indentation to define code blocks.
+
+Python supports multiple programming paradigms, including structured, object-oriented, and functional programming. It is dynamically typed and garbage-collected. Python has a comprehensive standard library that covers everything from file I/O and text processing to networking and cryptography.
+
+Python's design philosophy is summarized in the Zen of Python, a collection of 19 aphorisms that begin with "Beautiful is better than ugly" and "Explicit is better than implicit." These principles guide the language's development and the community's coding style.
+
+Python is widely used in web development, data science, artificial intelligence, automation, scientific computing, and education. Major frameworks built on Python include Django and Flask (web), NumPy and Pandas (data), TensorFlow and PyTorch (AI/ML), and Pytest (testing).
+
+The Python Software Foundation maintains the language and its reference implementation, CPython. Other implementations include PyPy (JIT-compiled, faster execution), Jython (runs on the Java Virtual Machine), and MicroPython (designed for microcontrollers).
+
+Variables in Python are created when you assign a value to them. Python infers the type automatically. The main built-in data types are int, float, str, bool, list, tuple, dict, and set.
+
+Control flow in Python uses if, elif, and else for conditionals, and for and while for loops. Functions are defined with the def keyword. Classes are defined with the class keyword. Modules are files containing Python code that can be imported using the import statement.
